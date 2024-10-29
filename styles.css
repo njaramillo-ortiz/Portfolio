@@ -1,0 +1,223 @@
+.nav
+{
+    background-color: #921020;
+    width: calc(50% - 250px);
+    position: fixed;
+    height: 100%;
+    max-height: 100%;
+}
+
+.nav .content
+{
+    padding: 15px;
+    position: relative;
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+
+.nav-info h1
+{
+    line-height: 1;
+    text-align: right;
+    font-size: 3.5em;
+    color: rgb(233, 233, 233);
+}
+
+.nav-info .subtitle
+{
+    padding-top: 10px;
+    text-align: right;
+    line-height: 0.75;
+    color: rgb(255, 255, 255);
+}
+
+.nav-info h3
+{
+    font-size: 1.2em;
+}
+
+.page
+{
+    width: calc(50% + 250px);
+    display: block;
+    float: right;
+}
+
+.page .content
+{
+    float: left;
+    width: 650px;
+    height: 100%;
+    padding: 15px;
+}
+
+.nav-buttons
+{
+    margin-top: 50px;
+}
+
+.nav-button
+{
+    display: block;
+    background-color: aliceblue;
+    margin: 10px 0;
+    border-radius: 2.5px;
+    text-decoration: none;
+}
+
+.nav-button:hover
+{
+    background-color: #33887A;
+    border-radius: 2.5px;
+    color: white;
+}
+
+.selected
+{
+    background-color: #002E28;
+    border-radius: 2.5px;
+    color: white;
+}
+
+.nav-button-label
+{
+    display: block;
+    text-align: right;
+    padding: 5px 10px;
+}
+
+@media only screen and (max-width:1000px)
+{
+    .nav
+    {
+        width: 100%;
+        max-height: 90px;
+        min-height: 40px;
+        height: 12vw;
+        background: #921020;
+        float: left;
+    }
+
+    .nav .content
+    {
+        position: relative;
+        width: 100%;
+        padding-left: 7.5%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .nav-info .subtitle
+    {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1vw;
+    }
+
+    .nav-info
+    {
+        max-width: 50%;
+    }
+
+    .nav-info h1
+    {
+        line-height: 0.1;
+        font-size: 4.6vw;
+        text-align: left;
+    }
+
+    .nav-info h3
+    {
+        font-size: 15px;
+    }
+
+    .nav-buttons
+    {
+        width: 40%;
+        position: absolute;
+        right: 15px;
+        top: 0;
+        margin-top: 10px;
+        display: flex;
+        height: 65%;
+    }
+
+    .nav-button
+    {
+        height: 100%;
+        flex: 1;
+        margin: 5px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .selected
+    {
+        height: 100%;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .nav-button-label
+    {
+        text-align: center;
+        line-height: 1.25;
+    }
+
+    .page
+    {
+        width: 100%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (max-width:700px)
+{
+    .nav-info .subtitle
+    {
+        visibility: hidden;
+    }
+
+    .nav-info h1
+    {
+        line-height: 0.86;
+        font-size: 4vw;
+    }
+
+    .nav
+    {
+        height: 7.5vw
+    }
+
+    .nav .content
+    {
+        padding-top: 0px;
+    }
+
+    .page
+    {
+        padding-top: 5vw;
+    }
+
+    .nav-buttons
+    {
+        margin-top: 0;
+    }
+
+    .nav-button-label
+    {
+        font-size: 2vw;
+        line-height: 1;
+    }
+
+    .nav-buttons
+    {
+        width: 45%;
+        height: 70%;
+    }
+}
