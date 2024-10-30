@@ -50,6 +50,21 @@
     font-size: 13px;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
+}
+
+.resume-btn
+{
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #921020;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 25px;
 }
 
 .nav
