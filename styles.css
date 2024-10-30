@@ -5,6 +5,7 @@
     border-radius: 10px;
     display: flex;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .thumbnail
@@ -26,6 +27,12 @@
     font-size: 18px;
     font-weight: bold;
     line-height: 1;
+}
+
+.game-info h5
+{
+    font-size: 12px;
+    line-height: 0.5;
 }
 
 .game-info p
