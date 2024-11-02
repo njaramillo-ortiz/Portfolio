@@ -193,6 +193,15 @@
     font-size: 11px;
 }
 
+.job-game
+{
+    width: auto;
+    background-color: #dbcfd1b5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width:1000px)
 {
     .nav
