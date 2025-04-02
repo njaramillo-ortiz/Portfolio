@@ -64,7 +64,39 @@
     font-weight: bold;
     text-decoration: none;
     text-align: center;
-    margin: 0 25px;
+    margin-bottom: 10px;
+}
+
+.job
+{
+    width: 100%;
+    background-color: #dbcfd1b5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.job h4
+{
+    line-height: 1;
+}
+
+.job-header
+{
+    display: flex;
+}
+
+.job-date
+{
+    text-align: right;
+    flex-grow: 1;
+}
+
+.job-date-min
+{
+    display: none;
+    text-align: right;
+    flex-grow: 1;
 }
 
 .nav
@@ -159,6 +191,15 @@
 #reconnectAwards
 {
     font-size: 11px;
+}
+
+.job-game
+{
+    width: auto;
+    background-color: #dbcfd1b5;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width:1000px)
@@ -293,5 +334,15 @@
     {
         width: 45%;
         height: 70%;
+    }
+
+    .job-date
+    {
+        display: none;
+    }
+
+    .job-date-min
+    {
+        display: inline-block;
     }
 }
